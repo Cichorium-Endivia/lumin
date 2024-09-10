@@ -156,3 +156,8 @@ nav a{
     background-color: lightgray;
     padding: 15px 15px 15px 15px;
 }
+
+#contatos,
+#Contato h2{
+     text-align: center;
+}
