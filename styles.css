@@ -162,76 +162,41 @@ nav a{
      text-align: center;
 }
 
-/*resize gpt*/
-
-@media (max-width: 768px) {
-    #navv {
-        flex-direction: column;
-    }
-
-    #logonames {
-        margin: 0;
-    }
-
-    #bloco-nav {
-        margin-top: 10px;
-    }
-
-    #bloco-nav a {
-        font-size: 18px; /* Smaller font size for mobile */
-        margin: 10px;
-    }
-
-    #sep1 {
-        padding: 10px;
-    }
-
-    .container {
-        max-width: 100%;
-    }
-
-    #sep2 {
-        padding: 20px 10px;
-    }
-
-    #sobretxt {
-        width: 100%;
-        padding: 10px;
-    }
-
-    #sobretxt h6 {
-        font-size: 20px; /* Further reduced font size for mobile */
-    }
-
-    #cafeteriaa {
-        width: 100%;
-        max-width: 100%;
-    }
-}
-
+/* Responsividade para celulares */
 @media (max-width: 480px) {
-    #bloco-nav a {
-        font-size: 16px; /* Even smaller font size for very small screens */
-        margin: 5px;
-    }
 
-    #sep1 {
-        padding: 5px;
+    h2 {
+      font-size: 1.8rem;
+      /* Tamanho da fonte em telas pequenas */
+      /*letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
     }
-
-    .container {
-        max-width: 100%;
+  
+    section input {
+      width: 17rem;
+      /* Largura total dos inputs em telas pequenas */
     }
-
-    #sep2 {
-        padding: 10px;
+  
+    section button {
+      padding: 0.6rem 1rem;
+      /* Espaçamento interno do botão em telas pequenas */
+      font-size: 0.9rem;
+      /* Tamanho da fonte do botão em telas pequenas */
     }
-
-    #sobretxt {
-        padding: 5px;
+  
+    .resultados-pesquisa {
+      width: 90%;
+      /* Largura da caixa de resultados em telas pequenas */
+      height: 50vh;
+      /* Altura da caixa de resultados em telas pequenas */
     }
-
-    #sobretxt h6 {
-        font-size: 18px; /* Adjusted font size for very small screens */
+  
+    .item-resultado h2 {
+      font-size: 1.1rem;
+      /* Tamanho da fonte dos títulos em telas pequenas */
     }
-}
+  
+    footer {
+      font-size: 0.9rem;
+      /* Tamanho da fonte do rodapé em telas pequenas */
+    }
+  }
